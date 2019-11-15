@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Merlin's Potions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/products/aging-potion.png">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="lightbox">
+      <div class="content text-center text-md-left">
+        <i class="icon-close"></i>
+        <div class="row">
+          <div class="col-sm-8">
+            <img class="img-fluid d-block mx-auto" id="image" src="img/products/aging-potion.png" alt="produto">
+          </div>
+          <div class="col-sm-4">
+            <h2>sdsa </h2>
+            <h2 class="effect mt-3">Use/Effect:</h2>
+            <p>${effect}</p>
+            <p class="textContent">Cause de drinker to advance in age</p>
+            <h2> </h2>
+            <h2>Igredients:</h2>
+            <ul class="textContent">
+              <li>Red Wine</li>
+              <li>Prune Juice</li>
+              <li>Hairy Fungus</li>
+              <li>Tortoise Shell</li>
+              <li>Caterpillar</li>
+              <li>Bat Tongue</li>  
+            </ul>
+            Price:
+            <p>Price</p>
+            <button class="mt-3 rounded">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-2 d-flex justify-content-center align-items-center d-lg-none">
+            <i class="icon-menu"></i>
+          </div>
+          <div class="col-8 col-lg-4">
+            <img class="logo responsive" src="img/logo.jpg" alt="logo">
+          </div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <form method="post" action="#">
+              <input type="search" placeholder="search our stock">
+              <button type="submit"> 
+                <i class="icon-magnifier"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-2 col-lg-4">
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block order">
+                <h2>Free shiping<br>
+                  <span>on ordes over $50</span>
+                </h2>
+              </div>
+              <div class="col-12 col-lg-6 d-flex d-md-block flex-column align-items-center bag">
+                <img src="img/icon.png" alt="icon">
+                <span style="color:#b3b3b3;text-transform:uppercase">
+                  bag:
+                  <span style="color:#d6391e;margin-left:8px;">
+                    1
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="d-block d-lg-none" style="background:#e6e6e6;color:grey;padding:5px 0;">
+      <div class="container">
+        <p class="text-center m-0 font-italic">Free shipping on orders over $50</p>
+      </div>
+    </section>
+    <div class="drop-mobile">
+      <div class="d-flex justify-content-between">
+        <i class="icon-close"></i>
+        <form method="post" action="#">
+          <input type="search" placeholder="search our stock">
+          <button type="submit"> 
+            <i class="icon-magnifier"></i>
+          </button>
+        </form>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Potions</a>
+        </li>
+        <li>
+          <a href="#">Inredients</a>
+        </li>
+        <li>
+          <a href="#">Books</a>
+        </li>
+        <li>
+          <a href="#">Supplies</a>
+        </li>
+        <li>
+          <a href="#">Charms</a>
+        </li>
+        <li class="active">
+          <a href="#">Clearence!</a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-center" style="background: #513367;">
+        <ul class="d-flex">
+          <li style="margin:0;border:none;">
+            <a href="#">Sign in</a>
+          </li>
+          <li style="margin:0 10px !important;opacity:0.4;color:white;border:none;">
+            <a>or</a>
+          </li>
+          <li style="margin:0;border:none;">
+            <a href="#">Sign out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="d-flex">
+              <li>
+                <a href="#">Potions</a>
+              </li>
+              <li>
+                <a href="#">Inredients</a>
+              </li>
+              <li>
+                <a href="#">Books</a>
+              </li>
+              <li>
+                <a href="#">Supplies</a>
+              </li>
+              <li>
+                <a href="#">Charms</a>
+              </li>
+              <li class="active">
+                <a href="#">Clearence!</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center">
+            <ul class="d-flex">
+              <li style="margin:0;">
+                <a href="#">Sign In</a>
+              </li>
+              <li style="margin:0 1px !important;opacity:0.4;">or</li>
+              <li style="margin:0;"> <a href="#">Sign out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="potions my-5">
+      <div class="container">
+        <h2 class="mb-5 text-center text-md-left">Potions</h2>
+        <div class="row">
+          <div class="prod col-6 col-md-4 my-3">
+            <img class="product" src="img/products/aging-potion.png" alt="potion">
+              <p class="text-center name">Aging Potion</p>
+              <p class="text-center price">$29.99</p>
+              <p class="effect d-none"></p>
+          </div>
+          <div class="prod col-6 col-md-4 my-3">
+            <img class="product" src="img/products/bulgeye-potion.png" alt="potion">
+              <p class="text-center name">Bulgeye Potion</p>
+              <p class="text-center price">$19.99</p>
+              <p class="effect d-none"></p>
+          </div>
+          <div class="prod col-6 col-md-4 my-3">
+            <img class="product" src="img/products/dragon-tonic.png" alt="potion">
+              <p class="text-center name">Dragon Tonic</p>
+              <p class="text-center price">$64.99</p>
+              <p class="effect d-none"></p>
+          </div>
+          <div class="prod col-6 col-md-4 my-3">
+            <img class="product" src="img/products/love-potion.png" alt="potion">
+              <p class="text-center name">Love Potion</p>
+              <p class="text-center price">$29.99</p>
+              <p class="effect d-none"></p>
+          </div>
+          <div class="prod col-6 col-md-4 my-3">
+            <img class="product" src="img/products/polyjuice-potion.png" alt="potion">
+            <p class="text-center name">Polyjuice Potion</p>
+            <p class="text-center price">$99.99</p>
+            <p class="effect d-none"></p>
+          </div>
+          <div class="col-6 col-md-4 my-3">
+            <img class="product" src="img/products/sleeping-draught.png" alt="potion">
+            <p class="text-center name">Sleeping Draught</p>
+            <p class="text-center price">$29.99</p>
+            <p class="effect d-none"></p>
+            <ul class="ingr"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2 order-md-1">
+            <ul class="d-none d-md-flex links">
+              <li> 
+                <a href="#">Company<br>Returns</a>
+              </li
+              ><li>
+                <a href="#"> Contact <br>us</a>
+              </li>
+              <li>
+                <a href="#">Shipping</a>
+              </li>
+            </ul>
+            <ul class="social d-flex mt-3">
+              <li>
+                <a href="#">
+                  <img src="img/facebook.jpg" alt="rede social">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/twitter.jpg" alt="rede social">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/print.jpg" alt="rede social">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/tumblr.jpg" alt="rede social"></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/google.jpg" alt="rede social"></a>
+                  </li>
+                </ul>
+                <p class="copy text-md-left text-center">© 2015 Merlin's Potion. All rights Reserved</p>
+              </div>
+              <div class="col-md-6 order-1 order-md-2">
+                <div class="rounded" style="background:white;padding:1.5rem;">
+                  <p>Sign up for our Newsletter</p>
+                  <p>Sign up for our newsletter &amp; get exclusive discounts!</p>
+                  <form method="post" action="#">
+                    <div class="row">
+                      <div class="col-8 col-md-8">
+                        <input type="email" name="email" placeholder="Enter your email">
+                      </div>
+                      <div class="col-4 col-md-4">
+                        <input class="rounded button" type="submit" value="submit">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
